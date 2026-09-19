@@ -30,6 +30,257 @@ It does **not** implement the platform.
 
 ---
 
+## Visual process guide
+
+Thirty images. Open this README in the repo folder (or on GitHub) and scroll. Nothing to click one-by-one.
+
+Same-folder companion: [`visuals/process/README.md`](visuals/process/README.md).
+
+| # | Stage |
+|---|---|
+| 01 | [Complete system map](#v01) |
+| 02 | [How to read this pack](#v02) |
+| 03 | [User brief](#v03) |
+| 04 | [Requirements engine](#v04) |
+| 05 | [Land + GIS](#v05) |
+| 06 | [Terrain + elevation](#v06) |
+| 07 | [Zoning envelope](#v07) |
+| 08 | [Climate, sun, wind, flood](#v08) |
+| 09 | [Room adjacency](#v09) |
+| 10 | [Generative floor plans](#v10) |
+| 11 | [Score alternatives](#v11) |
+| 12 | [Massing + orientation](#v12) |
+| 13 | [CAD + geometry](#v13) |
+| 14 | [BIM / IFC](#v14) |
+| 15 | [Structure](#v15) |
+| 16 | [MEP](#v16) |
+| 17 | [Building physics](#v17) |
+| 18 | [Validation](#v18) |
+| 19 | [Interior + FF&E](#v19) |
+| 20 | [Rendering + web 3D](#v20) |
+| 21 | [Quantities + cost](#v21) |
+| 22 | [Procurement](#v22) |
+| 23 | [Construction 4D](#v23) |
+| 24 | [As-built vs design](#v24) |
+| 25 | [Digital twin](#v25) |
+| 26 | [Robotics + inspection](#v26) |
+| 27 | [Smart home](#v27) |
+| 28 | [Finance layer](#v28) |
+| 29 | [Standards](#v29) |
+| 30 | [Gaps + first slice](#v30) |
+
+<a id="v01"></a>
+### 01. Complete system map
+
+One object graph from dirt to operations.
+
+![Complete system map](visuals/process/01-system-map.png)
+
+<a id="v02"></a>
+### 02. How to read this pack
+
+Open README in this folder. Images render inline.
+
+![How to read this pack](visuals/process/02-how-to-read.png)
+
+<a id="v03"></a>
+### 03. User brief
+
+The family does not speak IFC. Start with a brief.
+
+![User brief](visuals/process/03-user-brief.png)
+
+<a id="v04"></a>
+### 04. Requirements engine
+
+Prose in. Constraint JSON out.
+
+![Requirements engine](visuals/process/04-requirements-engine.png)
+
+<a id="v05"></a>
+### 05. Land + GIS
+
+Parcel, footprints, roads, utilities. BC title = LTSA.
+
+![Land + GIS](visuals/process/05-land-gis.png)
+
+<a id="v06"></a>
+### 06. Terrain + elevation
+
+Slope, pad, drain. DEM not a screenshot.
+
+![Terrain + elevation](visuals/process/06-terrain-elevation.png)
+
+<a id="v07"></a>
+### 07. Zoning envelope
+
+Setbacks + height + FSR become a 3D volume.
+
+![Zoning envelope](visuals/process/07-zoning-envelope.png)
+
+<a id="v08"></a>
+### 08. Climate, sun, wind, flood
+
+Pretty plans that fail physics are theatre.
+
+![Climate, sun, wind, flood](visuals/process/08-climate-risk.png)
+
+<a id="v09"></a>
+### 09. Room adjacency
+
+A house is a graph before it is a drawing.
+
+![Room adjacency](visuals/process/09-adjacency-graph.png)
+
+<a id="v10"></a>
+### 10. Generative floor plans
+
+Many legal alternatives beat one hallucination.
+
+![Generative floor plans](visuals/process/10-generative-plans.png)
+
+<a id="v11"></a>
+### 11. Score alternatives
+
+Daylight, circulation, code flags, cost shape, adapt.
+
+![Score alternatives](visuals/process/11-score-alternatives.png)
+
+<a id="v12"></a>
+### 12. Massing + orientation
+
+Climate-aware volume on the lot.
+
+![Massing + orientation](visuals/process/12-massing-orientation.png)
+
+<a id="v13"></a>
+### 13. CAD + geometry
+
+Solids, meshes, clouds, implicits are not the same.
+
+![CAD + geometry](visuals/process/13-cad-geometry.png)
+
+<a id="v14"></a>
+### 14. BIM / IFC
+
+Semantics. Meshes without classes are pictures.
+
+![BIM / IFC](visuals/process/14-bim-ifc.png)
+
+<a id="v15"></a>
+### 15. Structure
+
+Load path to the ground. Rare in generative plans.
+
+![Structure](visuals/process/15-structure.png)
+
+<a id="v16"></a>
+### 16. MEP
+
+Air, power, water. OSS routing is a gap.
+
+![MEP](visuals/process/16-mep.png)
+
+<a id="v17"></a>
+### 17. Building physics
+
+EnergyPlus, Radiance, gbXML, EPW.
+
+![Building physics](visuals/process/17-building-physics.png)
+
+<a id="v18"></a>
+### 18. Validation
+
+IDS, clash, codes, energy, human review.
+
+![Validation](visuals/process/18-validation.png)
+
+<a id="v19"></a>
+### 19. Interior + FF&E
+
+No public SKU+3D+price+lead-time API.
+
+![Interior + FF&E](visuals/process/19-interior-ffe.png)
+
+<a id="v20"></a>
+### 20. Rendering + web 3D
+
+glTF to decide. Photoreal to persuade.
+
+![Rendering + web 3D](visuals/process/20-rendering.png)
+
+<a id="v21"></a>
+### 21. Quantities + cost
+
+Typed model = query. Pretty mesh = guesswork.
+
+![Quantities + cost](visuals/process/21-qto-cost.png)
+
+<a id="v22"></a>
+### 22. Procurement
+
+A SKU with a lead time is what gets bought.
+
+![Procurement](visuals/process/22-procurement.png)
+
+<a id="v23"></a>
+### 23. Construction 4D
+
+Sequence + trades. Layout robots exist; SF masons do not.
+
+![Construction 4D](visuals/process/23-construction-4d.png)
+
+<a id="v24"></a>
+### 24. As-built vs design
+
+Reality is the authority. The model catches up.
+
+![As-built vs design](visuals/process/24-asbuilt-vs-design.png)
+
+<a id="v25"></a>
+### 25. Digital twin
+
+Physical ↔ sensors ↔ state ↔ simulation ↔ decision.
+
+![Digital twin](visuals/process/25-digital-twin.png)
+
+<a id="v26"></a>
+### 26. Robotics + inspection
+
+Plan geometry must be localizable.
+
+![Robotics + inspection](visuals/process/26-robotics.png)
+
+<a id="v27"></a>
+### 27. Smart home
+
+Home Assistant + Matter. Map devices to rooms.
+
+![Smart home](visuals/process/27-smart-home.png)
+
+<a id="v28"></a>
+### 28. Finance layer
+
+Models only. No investment advice.
+
+![Finance layer](visuals/process/28-finance-layer.png)
+
+<a id="v29"></a>
+### 29. Standards
+
+The joints are the product.
+
+![Standards](visuals/process/29-standards-interop.png)
+
+<a id="v30"></a>
+### 30. Gaps + first slice
+
+Own one slice. Treat the rest as adapters.
+
+![Gaps + first slice](visuals/process/30-gaps-and-mvp.png)
+
+---
+
 ## How to navigate
 
 ```
