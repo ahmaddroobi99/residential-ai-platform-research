@@ -4,8 +4,9 @@ Research knowledge base for an end-to-end AI residential development platform: r
 
 ## Open these first
 
-- **[Ten companies, with images](residential-ai-platform-research/ecosystem/COMPANIES_TOP10.md)** — separate file, logos + cards inline
-- **[Company image folder](residential-ai-platform-research/visuals/companies/README.md)** — same pictures, local paths
-- **[Process diagrams](residential-ai-platform-research/visuals/process/)** — land → design → BIM → twin
-- **[Full company catalog](residential-ai-platform-research/ecosystem/COMPANIES.md)**
-- **[Research overview](residential-ai-platform-research/README.md)**
+| Page | What it is |
+|---|---|
+| [Full research pack](residential-ai-platform-research/README.md) | System map, requirements, gaps |
+| [Ten companies](residential-ai-platform-research/ecosystem/COMPANIES_TOP10.md) | Separate page with images + GIF |
+| [All vendors](residential-ai-platform-research/ecosystem/COMPANIES.md) | Broader catalog |
+| [Process images](residential-ai-platform-research/visuals/process/) | 30-stage pipeline diagrams |
